@@ -10,34 +10,41 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Relentless innovation",
+    description: "We never settle. From the smallest detail to the boldest idea, we push ourselves to make things better, smarter, and more human with every release."
+  },
+  {
+    title: "Privacy is a fundamental right",
+    description: "We believe your data belongs to you—and only you. That's why privacy is built into everything we create from the ground up."
+  },
+  {
+    title: "Designed to delight",
+    description: "Great design does more than look good. It feels intuitive, adds joy to every interaction, and quietly removes friction from daily life."
+  },
+  {
+    title: "Empowering people everywhere",
+    description: "Technology should level the playing field. Whether you're a student, developer, creator, or explorer, we build tools that open doors and spark possibilities."
+  },
+  {
+    title: "Built to work together",
+    description: "Hardware, software, and services in perfect sync. That’s how we craft experiences that feel effortless—so our users can focus on what matters most."
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="Designed with purpose"
+	subtitle="Created by people driven to connect, inspire, and shape what comes next"
+	imageSrc="/mockups/airport-screen-1749722570047.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Apple began with a simple idea: make technology easier to use, so more people could benefit from it. What started as a vision to rethink the personal computer grew into decades of innovation across hardware, software, and services—all designed with people at the center. Every product was built to help someone do something they couldn't before.",
+		"Today, that mission continues. Whether it's a student designing their first 3D project on iPad Air or a parent sharing photos across devices instantly, Apple creates tools that feel simple from the start. At the heart of every product is a seamless connection between hardware and software. Features that are thoughtful, private, and intuitive—empowered by Apple Intelligence, and made to keep you focused on what matters, not how to make it work.",
+		"Across iPhone, Mac, iPad, Apple Watch, and services like Apple Music or TV+, the goal remains the same: to keep people connected, creative, and in control of their world. From learning, working, and streaming to caring for your health or just staying in touch, Apple helps you do more—without making complexity part of the experience."
 	]}
 />
 
@@ -45,58 +52,28 @@
 <Culture {values} />
 
 <!-- StakeholderGrid Section -->
-<StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
-/>
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Imagine what we can build together"
+  subtitle="Innovation thrives when we collaborate"
+  description="At Apple, progress is guided by curiosity, creativity, and bold ideas. Whether you're designing the next generation of products or ensuring they reach people across the globe, there’s room for your impact here."
+  imageSrc="/generated/image-a-diverse-team-of-creative-individuals-e.webp"
+  callsToAction={[
+    {
+      href: "/careers",
+      label: "View open roles",
+      variant: "primary"
+    },
+    {
+      href: "/contact",
+      label: "Connect with Apple",
+      variant: "secondary"
+    }
+  ]}
 />

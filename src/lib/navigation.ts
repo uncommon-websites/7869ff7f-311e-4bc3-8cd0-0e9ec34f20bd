@@ -64,42 +64,26 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				href: "/use-cases/healthcare",
-				image:
-					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
-
-				description:
-					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
+				label: "Collaborative learning with iPad",
+				href: "/use-cases/collaborative-learning",
+				image: "/generated/image-a-diverse-group-of-students-and-teachers.webp",
+				description: "Students and teachers use iPad Air with M3 chip to sketch, share, and present ideas in real time—from any classroom or remote location. Built-in Apple Intelligence helps organize notes, summarize lessons, and edit documents on the go.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Finance",
-				href: "/use-cases/finance",
-				image:
-					"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Streamlining operations and compliance across financial services by automating regulatory reporting, strengthening risk management, integrating advanced real‑time analytics, and ensuring robust audit trails for enhanced governance and operational efficiency",
+				label: "Content creation with Mac and iPhone",
+				href: "/use-cases/content-creation",
+				image: "/generated/image-a-young-creator-working-diligently-in-a-.webp",
+				description: "Creators combine the M4-powered MacBook Air and iPhone 16 to shoot, edit, and publish professional-quality videos and music faster than ever. Built-in tools like Final Cut and Photos feel intuitive and deeply integrated.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Technology",
-				href: "/use-cases/technology",
-				image:
-					"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Cutting-edge tools for tech companies, offering scalable cloud-based platforms, AI-driven development frameworks, secure collaboration environments, and streamlined deployment pipelines to accelerate innovation and deliver market-leading solutions",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Education",
-				href: "/use-cases/education",
-				image:
-					"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description: "Enhancing learning experiences",
+				label: "Health and wellness with Apple Watch",
+				href: "/use-cases/health-wellness",
+				image: "/generated/image-a-person-in-a-modern-stylish-living-room.webp",
+				description: "Apple Watch Series 10 helps track heart rate, sleep, medication, and activity goals throughout your day—all from your wrist. Real-time insights and Apple Fitness+ make managing personal health simple and motivating.",
 				showInNav: true,
 				showInFooter: true
 			}

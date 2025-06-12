@@ -35,138 +35,149 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "All your favorite Apple services. One simple plan",
+		subtitle = "Apple One bundles up to six Apple services into a single subscription. Whether you're just getting started or want the best for your whole family, there's a plan that fits how you live, work, and play.",
+		tierNames = ["Individual", "Family", "Premier"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
+		{
+			name: "Apple Music",
+			tiers: {
+				Individual: true,
+				Family: true,
+				Premier: true
 			}
+		},
+		{
+			name: "Apple TV+",
+			tiers: {
+				Individual: true,
+				Family: true,
+				Premier: true
+			}
+		},
+		{
+			name: "Apple Arcade",
+			tiers: {
+				Individual: true,
+				Family: true,
+				Premier: true
+			}
+		},
+		{
+			name: "Apple News+",
+			tiers: {
+				Individual: false,
+				Family: false,
+				Premier: true
+			}
+		},
+		{
+			name: "Apple Fitness+",
+			tiers: {
+				Individual: false,
+				Family: false,
+				Premier: true
+			}
+		},
+		{
+			name: "iCloud+ storage",
+			tiers: {
+				Individual: "50GB",
+				Family: "200GB",
+				Premier: "2TB"
+			}
+		},
+		{
+			name: "Family sharing",
+			tiers: {
+				Individual: false,
+				Family: "Up to 5 people",
+				Premier: "Up to 5 people"
+			}
+		},
+		{
+			name: "Device management & Screen Time",
+			tiers: {
+				Individual: "Single user",
+				Family: true,
+				Premier: true
+			}
+		},
+		{
+			name: "Exclusive content access",
+			tiers: {
+				Individual: "Standard",
+				Family: "Standard",
+				Premier: "Full including News+ and Fitness+"
+			}
+		},
+		{
+			name: "Priority support",
+			tiers: {
+				Individual: "Standard",
+				Family: "Standard",
+				Premier: "Premier level"
+			}
+		}
 		],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Individual",
+			monthlyPrice: 16.95,
+			yearlyPrice: null,
+			description: "Best for individuals who want key Apple services and storage on all their devices.",
+			features: [
+				"Apple Music",
+				"Apple TV+",
+				"Apple Arcade",
+				"iCloud+ with 50GB storage",
+				"Private and secure use across a single Apple ID"
+			],
+			cta: {
+				label: "Start free trial",
+				href: "#individual"
 			}
+		},
+		{
+			name: "Family",
+			monthlyPrice: 22.95,
+			yearlyPrice: null,
+			description: "Best for families who want to share premium Apple services, manage screen time, and get more iCloud storage together.",
+			features: [
+				"Apple Music",
+				"Apple TV+",
+				"Apple Arcade",
+				"iCloud+ with 200GB storage",
+				"Family Sharing for up to 5 people",
+				"Manage kids’ devices and app usage"
+			],
+			cta: {
+				label: "Start free trial",
+				href: "#family"
+			},
+			highlight: true
+		},
+		{
+			name: "Premier",
+			monthlyPrice: 32.95,
+			yearlyPrice: null,
+			description: "Best for power users, families, and small teams who need maximum storage, more content, and advanced support.",
+			features: [
+				"Apple Music",
+				"Apple TV+",
+				"Apple Arcade",
+				"Apple News+",
+				"Apple Fitness+",
+				"iCloud+ with 2TB storage",
+				"Family Sharing for up to 5 people",
+				"Premier access to all Apple services",
+				"Priority support via Apple One Premier tier"
+			],
+			cta: {
+				label: "Start free trial",
+				href: "#premier"
+			}
+		}
 		]
 	}: {
 		title?: string;

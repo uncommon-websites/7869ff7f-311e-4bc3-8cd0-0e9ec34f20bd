@@ -25,107 +25,117 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Apple designs, manufactures, and markets smartphones, computers, tablets, wearables, and streaming services. Everything works seamlessly together for a fast, secure, and beautifully integrated experience. Enjoy innovative features and top performance—no matter which Apple product you choose."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Mireille Dubois",
+			position: "CFO",
+			company: "Renaissance Media",
+			quote: "We saved weeks of manual reporting each quarter with Apple. Now my team can focus on strategy—instead of spreadsheets—knowing our data is always secure.",
+			image: "/generated/image-a-female-cfo-smiling-in-a-contemporary-o.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Alonso Rivera",
+			position: "Studio Producer",
+			company: "Sunburst Studios",
+			quote: "Apple streamlined our creative project workflows and saved us hours every day. End-to-end integration means fewer delays and more time to focus on making great work.",
+			image: "/generated/image-a-male-studio-producer-sitting-in-a-crea.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Juniper Lee",
+			position: "College Student",
+			company: "State University",
+			quote: "Using Apple devices with Apple Intelligence saved me money and helped me avoid late semester crunch. iCloud backups mean losing my work is one less thing to stress about.",
+			image: "/generated/image-a-female-college-student-studying-at-a-c.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built to think. And built to work."
+	subtitle="Explore what makes every Apple experience unique."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Power that's always ahead",
+			description: "The M4 and M3 chips give you blazing-fast performance with incredible energy efficiency. Whether you're creating, studying, or gaming, everything feels instant."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Smarter devices that understand you",
+			description: "Apple Intelligence helps your devices anticipate what you need, when you need it. Less tapping, more doing."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Your data stays yours",
+			description: "Privacy is built into every Apple product from the start. Your information stays under your control—always encrypted, always protected."
+		},
+		{
+			title: "It just works—together",
+			description: "Start a task on one device, finish it on another without missing a beat. Apple's ecosystem keeps your work, content, and conversations in one continuous flow."
+		},
+		{
+			title: "Entertainment the way you want it",
+			description: "Stream hits, live major league sports, music, workouts, and games. Access Apple TV+, Apple Music, Apple Fitness+, and Apple Arcade—everywhere you go."
+		},
+		{
+			title: "Better upgrades, smarter rewards",
+			description: "Get extra credit with Apple Trade In and instantly earn up to 3% back every day with Apple Card. It pays to go with Apple."
 		}
 	]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
+	title="Use cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Collaborative learning with iPad",
+			description: "Students and teachers use iPad Air with M3 chip to sketch, share, and present ideas in real time—from any classroom or remote location. Built-in Apple Intelligence helps organize notes, summarize lessons, and edit documents on the go.",
+			image: "/generated/image-students-and-teachers-using-ipads-in-a-.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/collaborative-learning",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Content creation with Mac and iPhone",
+			description: "Creators combine the M4-powered MacBook Air and iPhone 16 to shoot, edit, and publish professional-quality videos and music faster than ever. Built-in tools like Final Cut and Photos feel intuitive and deeply integrated.",
+			image: "/generated/image-young-creator-editing-video-on-macbook-and-.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/content-creation",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Health and wellness with Apple Watch",
+			description: "Apple Watch Series 10 helps track heart rate, sleep, medication, and activity goals throughout your day—all from your wrist. Real-time insights and Apple Fitness+ make managing personal health simple and motivating.",
+			image: "/generated/image-person-checking-health-stats-on-apple-wa.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/health-wellness",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="It all works together. Beautifully."
+  subtitle="Experience every Apple device, seamlessly connected."
+  description="iPhone, MacBook Air, iPad Air, and Apple Watch are all designed to perform powerfully alone—and even better together. With Apple Intelligence, your tech feels faster, smarter, and more helpful, wherever life takes you."
+  imageSrc="/generated/image-a-young-adult-sitting-comfortably-on-a-p.webp"
+  callsToAction={[
+    {
+      href: "/shop",
+      label: "Shop the lineup",
+      variant: "primary"
+    },
+    {
+      href: "/trade-in",
+      label: "Get trade-in estimate",
+      variant: "secondary"
+    }
+  ]}
+/>
