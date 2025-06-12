@@ -11,7 +11,7 @@
 </script>
 
 <CenteredTextOnlyHero
-  title="Innovation and Technology, beautifully connected"
+  title="Habits and Technology, beautifully connected"
   subtitle="Everything works together seamlessly, so you can do more with ease, clarity, and joy—across every device and service."
   imageSrc="/generated/image-a-busy-cafe-scene-with-diverse-people-en.webp"
 />
